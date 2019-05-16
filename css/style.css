@@ -1,37 +1,11 @@
 body {
     /*font-family: 'Open Sans', sans-serif;*/
+    margin-top: 50px;
     font-family: 'Rubik', sans-serif;
     color: white;
-    background-color: rgba(247, 218, 232, 1);
 }
 
 /* containers */
-
-.background-container {
-
-    height: 200px;
-    /*margin-top: 50px;*/
-
-    background: urL('../images/monkees.jpg');
-
-
-    z-index: -1;
-}
-
-.logo {
-
-    margin-top: 50px;
-
-
-    text-align: center;
-    font-weight: bolder;
-    font-size: 6rem;
-    color: rgba(242, 241, 3, 1);
-    text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
-    font-family: 'Bungee', cursive;
-    text-transform: uppercase;
-    
-}
 
 .content-container {
     margin-top: 0;
@@ -40,106 +14,221 @@ body {
 
 .footer-container {
     height: 50px;
-    /*background-color: red;*/
     color: white;
 }
 
 /* navigation bar */
 
-.navbar-social i {
-    color: white;
-    font-size: 18px;
+/* for xs and sm screens */
+
+.navbar-social-media i {
+    font-size: 30px;
 }
 
-.bg--lime {
-    background-color: rgba(190, 207, 33, 1);
+/* for md screens and larger reduce the font size to fit on navbar */
+
+@media (min-width: 768px) {
+    .navbar-social-media i {
+        font-size: 22px;
+    }
 }
 
-.bg--pink {
-    background-color: rgba(237, 163, 198, 1);
+.navbar-social-media {
+    min-width: 200px;
 }
 
-.bg--yellow {
-    background-color: rgba(242, 241, 3, 1);
+.navbar-brand {
+    background-image: url("../images/monkees-logo-2.png");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    margin-right: 1em;
+}
+
+.navbar-logo {
+    height: 20%;
+    width: 20%;
+}
+
+
+
+/* colour scheme */
+
+.bg--primary {
+    background-color: #00608a;
+}
+
+
+.bg--secondary {
+    background-color: #403F4C;
+}
+
+.bg--third {
+    background-color: #93B7BE;
+}
+
+.bg--four {
+    background-color: #E8E8E8;
+}
+
+.bg--white {
+    background-color: #ffffff;
 }
 
 .bg--red {
-    background-color: rgba(220, 33, 18, 1);
+    background-color: #E84855
 }
 
-.bg--purple {
-    background-color: rgba(162, 67, 167, 1);
+/* font styling */
+
+.font--primary {
+    color: #E8E8E8;
 }
 
-.bg--blue {
-    background-color: rgba(101, 206, 251, 1);
+.font--secondary {
+    color: #E84855;
 }
 
-.bg--orange {
-    background-color: rgba(148, 123, 98, 0.7);
+.fab {
+    color: #fff;
 }
-
-
-
-.content-container--orange {
-    /*background-color: rgba(148, 123, 98, 0.7);*/
-    background-color: rgba(162, 67, 167, .7);
-    padding-top: 5px;
-    padding-bottom: 10px;
-
-}
-
-.content-container video {
-    max-width: 640px;
-    max-height: 360px;
-    
-    
-    min-width: 320px;
-    min-height: 180px;
-    
-}
-
-.spacer{
-    height: 20vh;
-    font-size: 40px;
-}
-
-.news-content {}
-
-.upcoming-events-content {}
 
 .page-header {
-
-    margin: 0;
     padding: 0;
-    /*text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+    margin: 0;
+    font-size: 30px;
     font-family: 'Bungee', cursive;
     text-transform: uppercase;
 }
 
-
-/* news content */
-
-.news-content .card, .card-header, .card-body {
-    border: none;
-    color: black;
+.navbar-social-media a:hover>.fa-facebook-square {
+    color: #3b5998;
 }
 
-.news-content .card-header {
-    background-color: rgba(101, 206, 251, .55);
+.navbar-social-media a:hover>.fa-twitter-square {
+    color: #55acee;
+}
+
+.navbar-social-media a:hover>.fa-instagram {
+    color: #8134AF;
+}
+
+.navbar-social-media a:hover>.fa-youtube {
+    color: #000;
+}
+
+.navbar-social-media a:hover>.fa-spotify {
+    color: #84bd00;
+}
+
+
+/* upcoming events */
+
+.upcoming-events-content {
+
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+/* latest release container */
+
+.latest-release-content {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #000;
+}
+
+.latest-release-content video {
+    max-width: 90%;
+    padding-top: 10px;
+}
+
+/* news styling */
+
+.news-content {
+    min-height: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+.news-item {}
+
+.news-header {}
+
+.news-text {}
+
+
+
+
+.event-item {
+    margin-top: 15px;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.16);
+    overflow: hidden;
+}
+
+/* hero logo */
+
+.hero-container {
+    width: 100%;
+}
+
+.hero {
+    background-image: url("../images/monkees.jpg");
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+    min-height: 50vh;
+
+}
+
+.container-fluid {
     margin: 0;
-    padding: 5px;
+    padding: 0;
 }
 
-.news-content .btn-link {
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 5px;
+/* buttons */
+
+.btn-primary {
+    background-color: #E84855;
+    border-color: #E84855;
+}
+
+.btn-primary:hover {
+    background-color: #FF4855;
+    border-color: #FF4855;
+    
+}
+
+/* images */
+
+.img-thumbnail {
+    max-height: 100px;
+}
+
+.event-item .btn {
+    display: block;
+    max-width: 30vw;
+    width: 150px;
 
 }
 
-.news-content .card-body {
-    background-color: rgba(101, 206, 251, .55);
-    padding-top: 0;
-    padding-bottom: 0;
+/* divider */
+
+.divider {
+    height: 1px;
+    width: 100%;
+}
+
+/* video */
+
+.video-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
