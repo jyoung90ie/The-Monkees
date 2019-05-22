@@ -2,7 +2,7 @@ body {
     /*font-family: 'Open Sans', sans-serif;*/
     margin-top: 50px;
     font-family: 'Rubik', sans-serif;
-    color: white;
+    color: #000;
 }
 
 
@@ -78,6 +78,10 @@ body {
     color: #E84855;
 }
 
+.font--black {
+    color: #000;
+}
+
 .fab {
     color: #fff;
 }
@@ -85,12 +89,13 @@ body {
 .page-header {
     padding: 0;
     margin: 0;
-    font-size: 30px;
     font-family: 'Bungee', cursive;
     text-transform: uppercase;
+    color: #E84855;
 }
 
-.page-header>i, .news-header>i {
+.page-header>i,
+.news-header>i {
     margin-right: 20px;
 }
 
@@ -250,7 +255,53 @@ body {
 
 /* footer */
 
-
 .footer-content {
     height: 30px;
+}
+
+
+/* about us page */
+
+.about-us {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #000;
+}
+
+.band-member-name {}
+
+.band-member-thumbnail {
+    /*max-height: 300px;*/
+    /*width: 100%;*/
+    max-height: 300px;
+}
+
+.band-member {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.band-background {}
+
+.band-members {
+    margin-top: 50px;
+}
+
+.member-item {
+    font-weight: bold;
+}
+
+.member-detail {
+    margin-bottom: 5px;
+}
+
+
+/* events */
+
+h1.page-header {
+    margin-top: 100px;
+}
+
+h2.page-header {
+    margin-top: 30px;
 }
