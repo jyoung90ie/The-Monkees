@@ -100,19 +100,19 @@ body {
 }
 
 .navbar-social-media a:hover>.fa-facebook-square {
-    color: #3b5998;
+    color: #1877f2;
 }
 
 .navbar-social-media a:hover>.fa-twitter-square {
-    color: #55acee;
+    color: #1da1f2;
 }
 
 .navbar-social-media a:hover>.fa-instagram {
-    color: #8134AF;
+    color: #f46f30;
 }
 
 .navbar-social-media a:hover>.fa-youtube {
-    color: #000;
+    color: #ff0000;
 }
 
 .navbar-social-media a:hover>.fa-spotify {
@@ -122,31 +122,31 @@ body {
 
 /* upcoming events */
 
-.upcoming-events-content {
+.upcoming-events-container {
 
     width: 100%;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 
 }
 
 /* latest release container */
 
-.latest-release-content {
+.latest-release-container {
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     color: #000;
 }
 
-.latest-release-content video {
+.latest-release-container video {
     max-width: 90%;
     padding-top: 10px;
 }
 
 /* news styling */
 
-.news-content {
+.news-container {
     min-height: 200px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -247,7 +247,7 @@ body {
 
 /* video */
 
-.video-container {
+.index-video-container {
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -255,8 +255,9 @@ body {
 
 /* footer */
 
-.footer-content {
+.footer-container {
     height: 30px;
+    color: white;
 }
 
 
@@ -304,4 +305,43 @@ h1.page-header {
 
 h2.page-header {
     margin-top: 30px;
+}
+
+
+/* audio */
+
+.audio-header {
+    
+}
+
+.audio-track {
+    margin-bottom: 30px;
+}
+
+.audio-track audio {
+    display: block;
+    width: 100%;
+}
+
+.audio-image {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+
+    border: 6px double black;
+}
+
+
+/* video */
+.video-header {
+    padding-bottom: 10px;
+}
+
+.video-track {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.video-container {
+    padding-bottom: 50px;
 }

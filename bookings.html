@@ -20,7 +20,7 @@
         <!-- navbar container -->
         <div class="navbar-container">
             <nav class="navbar navbar-expand-md navbar-dark bg--primary fixed-top">
-                <a class="navbar-brand" href="#"></a>
+                <a class="navbar-brand" href="./index.html"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -72,39 +72,41 @@
         <main class="main-container">
             <section class="bookings">
                 <div class="container">
-                    <h1 class="page-header">Bookings</h1>
+                    <h1 class="page-header"><i class="far fa-comment-dots"></i> Bookings</h1>
+                    <hr class="divider bg--red">
 
                     <form>
                         <div class="form-group">
-                            <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <label for="first-name">First Name</label>
+                            <input type="text" class="form-control" id="first-name" placeholder="John" required>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlSelect1">Example select</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
+                            <label for="lastn-ame">Last Name</label>
+                            <input type="text" class="form-control" id="last-name" placeholder="Smith" required>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlSelect2">Example multiple select</label>
-                            <select multiple class="form-control" id="exampleFormControlSelect2">
-      <option>1</option>
-      <option>2</option>
-      <option>3</option>
-      <option>4</option>
-      <option>5</option>
-    </select>
+                            <label for="email-address">Email Address</label>
+                            <input type="email" class="form-control" id="email-address" placeholder="john-smith@example.com" required>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                    </form>
 
+                        <div class="form-group">
+                            <label for="venue-size">Estimated Venue Size</label>
+                            <select class="form-control" id="venue-size" required>
+      <option>1 - 99</option>
+      <option>100 - 499</option>
+      <option>500 - 999</option>
+      <option>1000 - 4999</option>
+      <option>5000+</option>
+    </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="additional-info">Additional Information</label>
+                            <textarea class="form-control" id="additional-info" rows="3" placeholder="Please provide any additional information that may be useful"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary mb-5">Submit</button>
+                        
+                    </form>
 
                 </div>
             </section>
@@ -112,7 +114,7 @@
 
 
         <!--<footer>-->
-        <footer class="footer-content bg--primary ">
+        <footer class="footer-container bg--primary ">
             <div class="row">
                 <div class="col-12 d-flex">
                     <span class="footer-text mx-auto">© 2019 The Monkees</span>
