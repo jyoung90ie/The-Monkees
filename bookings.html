@@ -68,47 +68,45 @@
         </div>
 
         <!-- content container -->
-        <main class="main-container">
-            <section class="bookings">
-                <div class="container">
-                    <h1 class="page-header"><i class="far fa-comment-dots"></i> Bookings</h1>
-                    <hr class="divider bg--red">
+        <main class="container">
+            <section>
+                <h1 class="page-header"><i class="far fa-comment-dots"></i> Bookings</h1>
+                <hr class="divider bg--red">
 
-                    <form>
-                        <div class="form-group">
-                            <label for="first-name">First Name</label>
-                            <input type="text" class="form-control" id="first-name" placeholder="John" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="last-name">Last Name</label>
-                            <input type="text" class="form-control" id="last-name" placeholder="Smith" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email-address">Email Address</label>
-                            <input type="email" class="form-control" id="email-address" placeholder="john-smith@example.com" required>
-                        </div>
+                <form>
+                    <div class="form-group">
+                        <label for="first-name">First Name</label>
+                        <input type="text" class="form-control" id="first-name" placeholder="John" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" class="form-control" id="last-name" placeholder="Smith" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email-address">Email Address</label>
+                        <input type="email" class="form-control" id="email-address" placeholder="john-smith@example.com" required>
+                    </div>
 
-                        <div class="form-group">
-                            <label for="venue-size">Estimated Venue Size</label>
-                            <select class="form-control" id="venue-size" required>
-      <option></option>
-      <option>1 - 99</option>
-      <option>100 - 499</option>
-      <option>500 - 999</option>
-      <option>1000 - 4999</option>
-      <option>5000+</option>
+                    <div class="form-group">
+                        <label for="venue-size">Estimated Venue Size</label>
+                        <select class="form-control" id="venue-size" required>
+      <option value="">Please select</option>
+      <option value="1-99">1 - 99</option>
+      <option value="100-499">100 - 499</option>
+      <option value="500-999">500 - 999</option>
+      <option value="1000-4999">1000 - 4999</option>
+      <option value="5000+">5000+</option>
     </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="additional-info">Additional Information</label>
-                            <textarea class="form-control" id="additional-info" rows="3" placeholder="Please provide any additional information that may be useful"></textarea>
-                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="additional-info">Additional Information</label>
+                        <textarea class="form-control" id="additional-info" rows="3" placeholder="Please provide any additional information that may be useful"></textarea>
+                    </div>
 
-                        <button type="submit" class="btn btn-primary mb-5">Submit</button>
+                    <button type="submit" class="btn btn-primary mb-5">Submit</button>
 
-                    </form>
+                </form>
 
-                </div>
             </section>
         </main>
 
