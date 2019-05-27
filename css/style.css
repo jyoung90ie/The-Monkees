@@ -141,7 +141,7 @@ body {
 }
 
 .latest-release-container video {
-    max-width: 90%;
+    width: 100%;
     padding-top: 10px;
 }
 
@@ -178,7 +178,10 @@ body {
 
 
 
-
+/* events */ 
+.events-container {
+    margin-bottom: 80px;
+}
 .event-item {
     margin-top: 15px;
     padding: 15px;
@@ -188,7 +191,7 @@ body {
     overflow: hidden;
 }
 
-/* hero logo */
+/* hero */
 
 .hero-container {
     width: 100%;
@@ -201,6 +204,14 @@ body {
     width: 100%;
     min-height: 50vh;
 
+}
+
+.hero h1 {
+    color: #fff;
+    font-family: 'Bungee', cursive;
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-top: auto;
 }
 
 .container-fluid {
@@ -266,7 +277,7 @@ body {
 
 .about-us {
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     color: #000;
 }
 
@@ -302,6 +313,7 @@ body {
 
 h1.page-header {
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 h2.page-header {
