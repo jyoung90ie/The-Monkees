@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bungee|Rubik:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald|Bungee|Rubik:400,700&display=swap');
 
 body {
     margin-top: 50px;
@@ -87,18 +87,7 @@ body {
     color: #fff;
 }
 
-.page-header {
-    padding: 0;
-    margin: 0;
-    font-family: 'Bungee', cursive;
-    text-transform: uppercase;
-    color: #E84855;
-}
 
-.page-header>i,
-.news-header>i {
-    margin-right: 20px;
-}
 
 .navbar-social-media a:hover>.fa-facebook-square {
     color: #1877f2;
@@ -124,10 +113,9 @@ body {
 /* upcoming events */
 
 .upcoming-events-container {
-
     width: 100%;
+    margin-bottom: 80px;
     padding-top: 30px;
-    padding-bottom: 50px;
 
 }
 
@@ -136,7 +124,7 @@ body {
 .latest-release-container {
     width: 100%;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     color: #000;
 }
 
@@ -150,7 +138,7 @@ body {
 .news-container {
     min-height: 200px;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     color: #000000;
 }
 
@@ -178,10 +166,12 @@ body {
 
 
 
-/* events */ 
+/* events */
+
 .events-container {
     margin-bottom: 80px;
 }
+
 .event-item {
     margin-top: 15px;
     padding: 15px;
@@ -206,13 +196,7 @@ body {
 
 }
 
-.hero h1 {
-    color: #fff;
-    font-family: 'Bungee', cursive;
-    text-transform: uppercase;
-    font-size: 5rem;
-    margin-top: auto;
-}
+
 
 .container-fluid {
     margin: 0;
@@ -309,23 +293,49 @@ body {
 }
 
 
-/* events */
+/* headers */
+.page-header {
+    padding: 0;
+    margin: 0;
+    font-family: 'Bungee', cursive;
+    text-transform: uppercase;
+    color: #E84855;
+}
+
+.page-header>i,
+.news-header>i {
+    margin-right: 20px;
+}
 
 h1.page-header {
     margin-top: 100px;
     margin-bottom: 50px;
+    color: #000;
+    font-family: 'Oswald', sans-serif;
 }
 
 h2.page-header {
     margin-top: 30px;
 }
 
+.hero h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 5rem;
+    margin-top: auto;
+    font-weight: bold;
+}
+
+/* music */
+
+.music-container {
+    margin-bottom: 80px;
+}
+
 
 /* audio */
 
-.audio-header {
-    
-}
+.audio-header {}
 
 .audio-track {
     margin-bottom: 30px;
@@ -346,6 +356,7 @@ h2.page-header {
 
 
 /* video */
+
 .video-header {
     padding-bottom: 10px;
 }
@@ -357,4 +368,10 @@ h2.page-header {
 
 .video-container {
     padding-bottom: 50px;
+}
+
+/* bookings */
+
+.booking-form {
+    margin-bottom: 80px;
 }
