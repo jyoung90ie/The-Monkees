@@ -13,92 +13,95 @@
 
 </head>
 
-<body>
-
-    <div class="container-fluid">
-        <!-- navbar container -->
-        <div class="navbar-container">
-            <nav class="navbar navbar-expand-md navbar-dark bg--primary fixed-top">
-                <a class="navbar-brand" href="./index.html"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<body class="container-fluid">
+    <!--navbar container-->
+    <header class="navbar-container">
+        <nav class="navbar navbar-expand-md navbar-dark bg--primary fixed-top">
+            <a class="navbar-brand" href="./index.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <div class="navbar-menu mx-auto">
-                        <ul class="navbar-nav justify-content-around">
-                            <li class="nav-item">
-                                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./about-us.html">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./upcoming-events.html">Upcoming Events</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./music.html">Music</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="./bookings.html">Bookings</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="navbar-social-media">
-                        <ul class="navbar-nav flex-row justify-content-around">
-                            <li class="nav-item ">
-                                <a class="nav-link" href="https://www.facebook.com/TheMonkees" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                            </li>
-                            <li class="nav-item ">
-                                <a class="nav-link" href="https://twitter.com/themonkees" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.instagram.com/themonkees/" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"><i class="fab fa-youtube"></i></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck" target="_blank"><i class="fab fa-spotify"></i></a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-menu mx-auto">
+                    <ul class="navbar-nav justify-content-around">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./upcoming-events.html">Upcoming Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./music.html">Music</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./bookings.html">Bookings</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
-
-        <!-- content container -->
-        <main class="booking-form container">
+                <div class="navbar-social-media">
+                    <ul class="navbar-nav flex-row justify-content-around">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="https://www.facebook.com/TheMonkees" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="https://twitter.com/themonkees" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/themonkees/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck" target="_blank"><i class="fab fa-spotify"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--./navbar container-->
+    <!--main-->
+    <main class="container">
+        <header>
             <h1 class="page-header">Bookings</h1>
-            <section>
+        </header>
+
+        <section>
+            <header>
                 <h2 class="page-header"><i class="far fa-comment-dots"></i> Get in Touch</h2>
-                <hr class="divider bg--red">
+            </header>
+            <hr class="divider bg--red">
 
-                <form>
-                    <div class="p-3 form-row">
-                        <div class="form-group col-12 col-md-6">
-                            <label for="first-name">First Name</label>
-                            <input type="text" class="form-control" id="first-name" placeholder="John" required>
-                        </div>
+            <form>
+                <div class="p-3 form-row">
+                    <div class="form-group col-12 col-md-6">
+                        <label for="first-name">First Name</label>
+                        <input type="text" class="form-control" id="first-name" placeholder="John" required>
+                    </div>
 
-                        <div class="form-group col-12 col-md-6">
-                            <label for="last-name">Last Name</label>
-                            <input type="text" class="form-control" id="last-name" placeholder="Smith" required>
-                        </div>
+                    <div class="form-group col-12 col-md-6">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" class="form-control" id="last-name" placeholder="Smith" required>
+                    </div>
 
-                        <div class="form-group col-12 col-lg-6">
-                            <label for="email-address">Email Address</label>
-                            <input type="email" class="form-control" id="email-address" placeholder="john-smith@example.com" required>
-                        </div>
+                    <div class="form-group col-12 col-lg-6">
+                        <label for="email-address">Email Address</label>
+                        <input type="email" class="form-control" id="email-address" placeholder="john-smith@example.com" required>
+                    </div>
 
-                        <div class="form-group col-12 col-lg-6">
-                            <label for="phone-number">Telephone</label>
-                            <input type="tel" class="form-control" id="phone-number" placeholder="+353 (1) 123 4567" required>
-                        </div>
+                    <div class="form-group col-12 col-lg-6">
+                        <label for="phone-number">Telephone</label>
+                        <input type="tel" class="form-control" id="phone-number" placeholder="+353 (1) 123 4567" required>
+                    </div>
 
-                        <div class="form-group col-12">
-                            <label for="venue-size">Estimated Venue Size</label>
-                            <select class="form-control" id="venue-size" required>
+                    <div class="form-group col-12">
+                        <label for="venue-size">Estimated Venue Size</label>
+                        <select class="form-control" id="venue-size" required>
                           <option value="">Please select</option>
                           <option value="1-99">1 - 99</option>
                           <option value="100-499">100 - 499</option>
@@ -106,39 +109,33 @@
                           <option value="1000-4999">1000 - 4999</option>
                           <option value="5000+">5000+</option>
                         </select>
-                        </div>
-
-                        <div class="form-group col-12">
-                            <label for="additional-info">Additional Information</label>
-                            <textarea class="form-control" id="additional-info" rows="3" placeholder="Please provide any additional information that may be useful"></textarea>
-                        </div>
-
-                        <hr class="divider--short bg--red">
-
-                        <div class="col-12 text-center">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
                     </div>
-                </form>
 
+                    <div class="form-group col-12">
+                        <label for="additional-info">Additional Information</label>
+                        <textarea class="form-control" id="additional-info" rows="3" placeholder="Please provide any additional information that may be useful"></textarea>
+                    </div>
 
-            </section>
-        </main>
+                    <hr class="divider--short bg--red">
 
-
-        <!--<footer>-->
-        <footer class="footer-container bg--primary">
-            <div class="row">
-                <div class="col-12 d-flex">
-                    <span class="footer-text mx-auto">© 2019 The Monkees</span>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
                 </div>
+            </form>
 
-            </div>
-        </footer>
-    </div>
 
-    <!-- ./content container -->
+        </section>
+    </main>
+    <!--./main-->
 
+    <!--footer-->
+    <footer class="row bg--primary footer-container">
+        <div class="col-12 text-center">
+            © 2019 The Monkees
+        </div>
+    </footer>
+    <!--./footer-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
