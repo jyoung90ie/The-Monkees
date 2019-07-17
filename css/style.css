@@ -1,14 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald|Bungee|Rubik:400,700&display=swap');
-
 body {
     /*margin-top: 50px;*/
     margin: 0;
     padding: 0;
-    
     font-family: 'Rubik', sans-serif;
     color: #000;
 }
-
 
 main {
     min-height: calc(100vh - 30px);
@@ -22,11 +19,13 @@ main.row {
 
 /* navigation bar */
 
+
 /* for xs and sm screens */
 
 .navbar-social-media i {
     font-size: 30px;
 }
+
 
 /* for md screens and larger reduce the font size to fit on navbar */
 
@@ -34,10 +33,6 @@ main.row {
     .navbar-social-media i {
         font-size: 22px;
     }
-}
-
-.navbar-social-media {
-    /*min-width: 200px;*/
 }
 
 .navbar-brand {
@@ -49,13 +44,11 @@ main.row {
 }
 
 
-
 /* colour scheme */
 
 .bg--primary {
     background-color: #00608a;
 }
-
 
 .bg--secondary {
     background-color: #403F4C;
@@ -77,6 +70,7 @@ main.row {
     background-color: #E84855
 }
 
+
 /* font styling */
 
 .font--primary {
@@ -94,8 +88,6 @@ main.row {
 .fab {
     color: #fff;
 }
-
-
 
 .navbar-social-media a:hover>.fa-facebook-square {
     color: #1877f2;
@@ -124,8 +116,8 @@ main.row {
     width: 100%;
     padding-bottom: 50px;
     padding-top: 50px;
-
 }
+
 
 /* latest release container */
 
@@ -141,6 +133,7 @@ main.row {
     padding-top: 10px;
 }
 
+
 /* news styling */
 
 .news-container {
@@ -152,10 +145,6 @@ main.row {
 
 .news-item {
     padding-top: 15px;
-}
-
-.news-header {
-    /*padding-bottom: 10px;*/
 }
 
 .news-text {
@@ -175,7 +164,6 @@ main.row {
 }
 
 
-
 /* events */
 
 .events-container {
@@ -191,6 +179,7 @@ main.row {
     overflow: hidden;
 }
 
+
 /* logo */
 
 .logo-container {
@@ -199,7 +188,6 @@ main.row {
     background-position: top center;
     width: 100%;
     min-height: 50vh;
-
 }
 
 
@@ -213,8 +201,8 @@ main.row {
 .btn-primary:hover {
     background-color: #FF4855;
     border-color: #FF4855;
-
 }
+
 
 /* images */
 
@@ -226,8 +214,8 @@ main.row {
     display: block;
     max-width: 30vw;
     width: 150px;
-
 }
+
 
 /* divider */
 
@@ -241,6 +229,7 @@ main.row {
     width: 50%;
 }
 
+
 /* video */
 
 .index-video-container {
@@ -253,16 +242,15 @@ main.row {
 
 .footer-container {
     height: 30px;
-    color: white;\
+    color: white;
 }
+
 
 /* about us page */
 
 .about-us {
     color: #000;
 }
-
-.band-member-name {}
 
 .band-member-thumbnail {
     /*max-height: 300px;*/
@@ -274,8 +262,6 @@ main.row {
     padding-bottom: 50px;
     padding-top: 30px;
 }
-
-.band-background {}
 
 .band-members {
     padding-top: 50px;
@@ -291,6 +277,7 @@ main.row {
 
 
 /* headers */
+
 .page-header {
     padding-top: 20px;
     font-family: 'Bungee', cursive;
@@ -320,16 +307,11 @@ h2.page-header {
     font-weight: bold;
 }
 
-/* music */
 
-.music-container {
-    /*padding-bottom: 80px;*/
-}
+/* music */
 
 
 /* audio */
-
-.audio-header {}
 
 .audio-track {
     padding-bottom: 50px;
@@ -344,7 +326,6 @@ h2.page-header {
     max-width: 300px;
     width: 100%;
     margin-bottom: 10px;
-
     border: 6px double black;
 }
 
@@ -364,8 +345,5 @@ h2.page-header {
     padding-bottom: 50px;
 }
 
-/* bookings */
 
-.booking-form {
-    /*padding-bottom: 80px;*/
-}
+/* bookings */
