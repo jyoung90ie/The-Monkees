@@ -85,7 +85,7 @@ Band member background information extracted from [Wikipedia](https://en.wikiped
 - Homepage Upcoming Events logos were obtained from:
   - [Electric Picnic](http://www.oxygen.ie/electric-picnic-2015-line-up-announced/)
   - [V-Festival](https://www.designweek.co.uk/issues/6-12-march-2017/v-festival-unveils-youthful-rebrand-clearer-reference-to-virgin/)
-  - [Glastonbury Festival](hhttps://www.glastonburyfestivals.co.uk/)
+  - [Glastonbury Festival](https://www.glastonburyfestivals.co.uk/)
 - All other images used in this site were obtained from the [Code Institute repository](https://github.com/Code-Institute-Org/project-assets) and Google Images
 
 ### Acknowledgements
