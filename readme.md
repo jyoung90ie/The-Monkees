@@ -52,7 +52,9 @@ For **Event Organisers**, I wanted the website to showcase the band's work and h
 
 ## Deployment
 
-Using GitHub Pages I deployed the website from the Master branch. Using the Master branch means that all updates will be reflected on the deployed website.
+Using GitHub Pages I deployed the website from the Master branch. You can see the deployed website [here](https://jyoung90ie.github.io/The-Monkees/).
+
+Using the Master branch means that all updates will be reflected on the deployed website.
 
 If you wish to run this project locally, you will need to download and install Git to your computer - see [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 

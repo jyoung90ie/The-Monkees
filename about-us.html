@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Monkees</title>
+    <meta name="Description" content="Background information on each of The Monkees band members">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -20,7 +21,8 @@
         <!-- navbar container -->
         <header class="navbar-container">
             <nav class="navbar navbar-expand-md navbar-dark bg--primary fixed-top">
-                <a class="navbar-brand" href="./index.html"></a>
+                <a class="navbar-brand" href="./index.html"
+                    aria-label="Click The Monkees logo to return to the homepage"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -38,7 +40,7 @@
                                         class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./upcoming-events.html">Upcoming Events</a>
+                                <a class="nav-link" href="./upcoming-events.html">Events</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./music.html">Music</a>
@@ -51,25 +53,28 @@
                     <div class="navbar-social-media">
                         <ul class="navbar-nav flex-row justify-content-around">
                             <li class="nav-item ">
-                                <a class="nav-link" href="https://www.facebook.com/TheMonkees" target="_blank"><i
-                                        class="fab fa-facebook-square"></i><span class="sr-only">Facebook</span></a>
+                                <a class="nav-link" href="https://www.facebook.com/TheMonkees" target="_blank"
+                                    rel="noreferrer"><i class="fab fa-facebook-square"></i><span
+                                        class="sr-only">Facebook</span></a>
                             </li>
                             <li class="nav-item ">
-                                <a class="nav-link" href="https://twitter.com/themonkees" target="_blank"><i
-                                        class="fab fa-twitter-square"></i><span class="sr-only">Twitter</span></a>
+                                <a class="nav-link" href="https://twitter.com/themonkees" target="_blank"
+                                    rel="noreferrer"><i class="fab fa-twitter-square"></i><span
+                                        class="sr-only">Twitter</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://www.instagram.com/themonkees/" target="_blank"><i
-                                        class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a>
+                                <a class="nav-link" href="https://www.instagram.com/themonkees/" target="_blank"
+                                    rel="noreferrer"><i class="fab fa-instagram"></i><span
+                                        class="sr-only">Instagram</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="https://www.youtube.com/channel/UCv1oY0OLtsEySHeP1TkYNqA"
-                                    target="_blank"><i class="fab fa-youtube"></i><span
+                                    target="_blank" rel="noreferrer"><i class="fab fa-youtube"></i><span
                                         class="sr-only">YouTube</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck"
-                                    target="_blank"><i class="fab fa-spotify"></i><span
+                                    target="_blank" rel="noreferrer"><i class="fab fa-spotify"></i><span
                                         class="sr-only">Spotify</span></a>
                             </li>
                         </ul>
@@ -79,11 +84,11 @@
         </header>
         <!--./navbar container-->
         <!--main-->
-        <main class="about-us container">
+        <main class="about-us container navbar-offset">
             <header>
                 <h1 class="page-header">About Us</h1>
             </header>
-            <section class="band-background">
+            <section>
                 <article>
                     <header>
                         <h2 class="page-header"><i class="far fa-id-card"></i> Background</h2>
@@ -103,7 +108,7 @@
                         of Tommy Boyce and Bobby Hart.</p>
                 </article>
             </section>
-            <section class="band-members">
+            <section>
                 <header>
                     <h2 class="page-header"><i class="fas fa-users"></i> Meet the Band</h2>
                 </header>
@@ -313,10 +318,8 @@
         </main>
         <!--./main-->
         <!--footer-->
-        <footer class="row bg--primary footer-container">
-            <div class="col-12 text-center">
-                <p>© 2019 The Monkees</p>
-            </div>
+        <footer class="bg--primary footer-container text-center">
+            <p>© 2019 The Monkees</p>
         </footer>
         <!--./footer-->
     </div>
